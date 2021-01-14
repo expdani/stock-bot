@@ -11,7 +11,7 @@ const coinMarketClient = new CoinMarketCap(env.COIN_MARKET_API_KEY);
  * Listener that listens to messages send in a server
  */
 export default function setupStockListeners() {
-  setInterval(() => { updateNio() }, 5 * 1000);
+  setInterval(() => { updateNio() }, 45 * 1000);
   setInterval(() => { updateEthereum() }, 700 * 1000);
 }
 
