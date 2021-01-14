@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "outDir": "build",
+        "rootDir": "./",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "module": "commonjs",
+        "strict": true,
+        "typeRoots": ["node_modules/@types", "src/custom-types"],
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "_root/*": ["./*"],
+            "_controllers/*": ["src/controllers/*"],
+            "_types/*": ["src/types/*"],
+            "_assets/*": ["assets/*"],
+            "@constants*": ["src/types/constants.ts*"]
+        }
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"],
+}
