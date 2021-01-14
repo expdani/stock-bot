@@ -32,7 +32,7 @@ export function shuffleArray(array: Array<any>) {
 /**
  * Function that translates seconds to a readable string
  */
-export function secondsToReadableString(unParsedSeconds: number) {
+export default function secondsToReadableString(unParsedSeconds: number) {
     if (unParsedSeconds < 0) {
         throw new Error("Unable to get readable string when seconds is a negative number");
     }

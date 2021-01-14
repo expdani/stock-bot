@@ -13,15 +13,8 @@
         "typeRoots": ["node_modules/@types", "src/custom-types"],
         "moduleResolution": "node",
         "esModuleInterop": true,
-        "baseUrl": ".",
-        "paths": {
-            "_root/*": ["./*"],
-            "_controllers/*": ["src/controllers/*"],
-            "_types/*": ["src/types/*"],
-            "_assets/*": ["assets/*"],
-            "@constants*": ["src/types/constants.ts*"]
-        }
+        "baseUrl": "."
     },
     "include": ["./src/**/*"],
-    "exclude": ["node_modules"],
+    "exclude": ["node_modules"]
 }

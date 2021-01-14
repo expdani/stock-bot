@@ -3371,6 +3371,13 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
+stockfinder@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/stockfinder/-/stockfinder-2.6.0.tgz#701f5b9ca0e5756f764bdf236ce8d1369e47cba2"
+  integrity sha512-OJXqaxK2GlJY+tQA8Nx473wkrnkwiwH0H+JCVcp9N+4Xz87z6vkZuBX4QZUnHWv3Zt/G2pjsAd/sJ4+YKYOcqA==
+  dependencies:
+    node-fetch "^2.6.0"
+
 stream-shift@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/stream-shift/-/stream-shift-1.0.1.tgz#d7088281559ab2778424279b0877da3c392d5a3d"
